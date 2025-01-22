@@ -24,7 +24,8 @@ def main():
         "user_q": user_query,
         "chat_history": chat_log,
         "lst_res": [],
-        "output": {}
+        "output": {},
+        "attempt_count": 0  # Starting with zero attempts
     }
 
     # Single Agent Flow
